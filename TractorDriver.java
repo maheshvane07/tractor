@@ -13,6 +13,11 @@ public class TractorDriver {
 		v.start();
 	}
 	
+	public void m2()
+	{
+		v.start();
+		System.out.println("HII");
+	}
 		
 	}
 
