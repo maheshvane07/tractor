@@ -8,5 +8,6 @@ public static void main(String[] args) {
 	ApplicationContext ac=new AnnotationConfigApplicationContext(Congurable.class);
 	                   TractorDriver td=(TractorDriver) ac.getBean("tractorDriver");
 	                   td.m1();
+					   System.out.println("Hello");
 }
 }
